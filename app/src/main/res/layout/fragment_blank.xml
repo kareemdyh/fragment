@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/fr_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <EditText
+            android:id="@+id/et_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="275dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="30dp"
+            android:hint="512"
+            android:layout_marginBottom="20dp"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <Button
+            android:id="@+id/b_add"
+            android:layout_width="208dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="جمع"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+    </LinearLayout>
+</FrameLayout>
